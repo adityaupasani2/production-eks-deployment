@@ -215,6 +215,29 @@ eksctl get fargateprofile --cluster demo-cluster-2048
 
 For more troubleshooting, see [docs/step-by-step-guide.md](docs/step-by-step-guide.md#troubleshooting).
 
+## 📚 Lessons Learned
+
+### Real-World Challenges
+
+During this project, I encountered AWS account service quotas for Application Load Balancers. This experience taught me:
+
+✅ **How to troubleshoot Kubernetes Ingress issues**
+- Analyzing ALB controller logs
+- Understanding IAM permission requirements
+- Debugging service quota limitations
+
+✅ **How to work with AWS Support**
+- Requesting service quota increases
+- Understanding account activation processes
+- Exploring alternative deployment strategies
+
+✅ **Problem-solving approaches**
+- Checking multiple regions
+- Verifying IAM permissions
+- Understanding AWS service restrictions
+
+**Key Takeaway:** Production deployments often involve working through real-world constraints. This experience strengthened my troubleshooting and problem-solving skills.
+
 ## 📁 Project Structure
 ```
 production-eks-deployment/
