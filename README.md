@@ -56,6 +56,11 @@ Kubernetes Service (service-2048)
     ↓
 2048 Game Pods (3 replicas across multiple AZs)
 ```
+## 📐 Architecture Diagram (Live)
+
+👉 View the interactive architecture diagram here:  
+
+https://adityaupasani2.github.io/production-eks-deployment/documents/architecture-diagram.html
 
 ### Infrastructure Components
 
@@ -175,11 +180,7 @@ For comprehensive step-by-step instructions, see [Step-by-Step Guide](docs/step-
 4. Create Ingress resource (triggers ALB creation)
 5. Access the game via ALB URL
 
-## 📐 Architecture Diagram (Live)
 
-👉 View the interactive architecture diagram here:  
-
-https://adityaupasani2.github.io/production-eks-deployment/documents/architecture-diagram.html
 
 
 ## 🔍 Troubleshooting
