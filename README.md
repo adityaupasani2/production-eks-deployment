@@ -175,6 +175,13 @@ For comprehensive step-by-step instructions, see [Step-by-Step Guide](docs/step-
 4. Create Ingress resource (triggers ALB creation)
 5. Access the game via ALB URL
 
+## 📐 Architecture Diagram (Live)
+
+👉 View the interactive architecture diagram here:  
+
+https://adityaupasani2.github.io/production-eks-deployment/documents/architecture-diagram.html
+
+
 ## 🔍 Troubleshooting
 
 ### Common Issues
